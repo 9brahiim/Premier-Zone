@@ -29,5 +29,14 @@ Location: `BackendPy/`
 - `PUT /api/v1/player/{player_name}` (update by name)
 - `DELETE /api/v1/player/{player_name}`
 
+## Deployment
+
+Ready to deploy? See [DEPLOYMENT.md](DEPLOYMENT.md) for step-by-step instructions to deploy:
+- Frontend to Vercel (free)
+- Backend to Railway (free tier)
+- PostgreSQL database (included with Railway)
+
+The project is configured for easy deployment with all necessary config files included.
+
 
 
