@@ -9,7 +9,6 @@ class Settings(BaseModel):
     database_url: AnyUrl = Field(default="postgresql://postgres:password@localhost:5432/pl_data")
     allowed_origins: List[str] = Field(default_factory=lambda: [
         "http://localhost:3000",
-        "https://premierzone.vercel.app",
     ])
 
     class Config:
